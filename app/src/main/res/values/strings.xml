@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Lab5Variant5</string>
+    <string name="count_of_hours">Count of hours:</string>
+    <string name="car_type_label">Car type</string>
+    <string name="car">car(2000 rub/hour)</string>
+    <string name="minivan">minivan(2500 rub/hour)</string>
+    <string name="bus">bus(3500 rub/hour)</string>
+    <string name="calculate">Calculate</string>
+    <string name="cost">Cost = %1$.2f rub.</string>
+    <string name="pay">Pay</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/count_of_hours_edit_text"
+        android:text="@string/count_of_hours" />
+
+    <EditText
+        android:id="@+id/count_of_hours_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:minWidth="200dp"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:id="@+id/car_type_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car_type_label"
+            android:gravity="center"
+            android:paddingBottom="10dp"/>
+
+        <RadioButton
+            android:id="@+id/car_radio"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="@string/car" />
+
+        <RadioButton
+            android:id="@+id/minivan_radio"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="@string/minivan" />
+
+        <RadioButton
+            android:id="@+id/bus_radio"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bus" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:textAllCaps="true" />
+
+</LinearLayout>
